@@ -18,17 +18,17 @@ function Answers(props) {
     return (
         
             <Paper style={{padding:"26px", maxheight:"550px"}} >
-                    <Typography variant="h6">Today TT Bar Price is <b>{props.value.ttbar}</b></Typography>
-                    <Typography variant="h6">GOLD PER GRAM Price is :<b>{pg}</b></Typography>
-                    <Typography variant="h6">24 KT = <b>{pg*12.15}</b></Typography>
-                    <Typography variant="h6">22 KT = <b>{pg*12.15 - (2000)}</b></Typography>
-                    <Typography variant="h6">21 KT =<b>{pg*12.15 - (3000)}</b></Typography>
-                    <Typography variant="h6">Jewellery Weight is:<b>{props.value.wt}</b></Typography>
-                    <Typography variant="h6">Polish %: <b>{props.value.Ppercent}</b> </Typography>
-                    <Typography variant="h6">Labour price:<b>{(grosswt/12.15)*props.value.labourprice}</b> </Typography>
-                    <Typography variant="h6">Stone Charges:<b>{props.value.Shonecharges}</b></Typography>
-            <Typography variant="h6">Total Weight in grams with Polish is:<b> {grosswt}</b></Typography>
-    <Typography variant="h6">Total Price PKR <b>{Price}</b> and Weight is: <b>{grosswt/12.15}</b></Typography>
+                    <Typography variant="subtitle1">Today TT Bar Price is <b>{props.value.ttbar}</b></Typography>
+                    <Typography variant="subtitle1">GOLD PER GRAM Price is :<b>{pg}</b></Typography>
+                    <Typography variant="subtitle1">24 KT = <b>{pg*12.15}</b></Typography>
+                    <Typography variant="subtitle1">22 KT = <b>{pg*12.15 - (2000)}</b></Typography>
+                    <Typography variant="subtitle1">21 KT =<b>{pg*12.15 - (3000)}</b></Typography>
+                    <Typography variant="subtitle1">Jewellery Weight is:<b>{props.value.wt}</b></Typography>
+                    <Typography variant="subtitle1">Polish %: <b>{props.value.Ppercent}</b> </Typography>
+                    <Typography variant="subtitle1">Labour price:<b>{(grosswt/12.15)*props.value.labourprice}</b> </Typography>
+                    <Typography variant="subtitle1">Stone Charges:<b>{props.value.Shonecharges}</b></Typography>
+            <Typography variant="subtitle1">Total Weight in grams with Polish is:<b> {grosswt}</b></Typography>
+    <Typography variant="subtitle1">Total Price PKR <b>{Price}</b> and Weight is: <b>{grosswt/12.15}</b></Typography>
     <Button variant="contained" onClick={props.click2} style={{ marginTop: 40,marginBotton:40 }} color="primary">Clear</Button>
     
                 </Paper>
